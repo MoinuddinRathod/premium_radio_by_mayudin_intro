@@ -59,7 +59,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
             className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg lg:mx-0"
           >
-            Global Radio turns <span className="font-semibold text-slate-200">470 live stations</span> from{" "}
+            Global Radio turns <span className="font-semibold text-slate-200">3999+ live stations</span> from{" "}
             <span className="font-semibold text-slate-200">across the world</span> into a living, rotating Earth. Drag to
             spin, click a marker, and let the memories pour in — old-school warmth, modern magic.
           </motion.p>
@@ -240,7 +240,7 @@ export default function Hero() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-orange-400" />
               </span>
               <p className="text-[11px] font-semibold text-white">
-                470 stations <span className="font-normal text-slate-400">live on globe</span>
+                3999+ stations <span className="font-normal text-slate-400">live on globe</span>
               </p>
             </div>
           </motion.div>

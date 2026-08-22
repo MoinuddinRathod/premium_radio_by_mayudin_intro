@@ -118,7 +118,7 @@ const PLANS = [
     cta: "Start Free",
     featured: false,
     features: [
-      "All 470 live stations, full globe access",
+      "All 3999+ live stations, full globe access",
       "One-tap favorites & ⌘K instant search",
       "Filter by country and genre",
       "Sleep timer + day & night themes",
@@ -207,11 +207,10 @@ export function Pricing() {
           {PLANS.map((p, i) => (
             <Reveal key={p.name} delay={i * 0.1} className="h-full">
               <article
-                className={`relative flex h-full flex-col rounded-[1.8rem] p-8 transition-all duration-500 hover:-translate-y-1.5 ${
-                  p.featured
-                    ? "border border-orange-400/40 bg-gradient-to-b from-orange-500/[0.12] via-ink-800/60 to-ink-900/80 shadow-[0_30px_90px_-25px_rgba(249,115,22,0.45)]"
-                    : "border border-white/10 bg-white/[0.03] hover:border-white/20"
-                }`}
+                className={`relative flex h-full flex-col rounded-[1.8rem] p-8 transition-all duration-500 hover:-translate-y-1.5 ${p.featured
+                  ? "border border-orange-400/40 bg-gradient-to-b from-orange-500/[0.12] via-ink-800/60 to-ink-900/80 shadow-[0_30px_90px_-25px_rgba(249,115,22,0.45)]"
+                  : "border border-white/10 bg-white/[0.03] hover:border-white/20"
+                  }`}
               >
                 {p.featured && (
                   <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-gradient-to-r from-amber-400 via-orange-500 to-rose-500 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wider text-ink-950 shadow-lg">
@@ -220,9 +219,8 @@ export function Pricing() {
                 )}
                 <div className="flex items-center gap-3">
                   <span
-                    className={`flex h-10 w-10 items-center justify-center rounded-xl ${
-                      p.featured ? "bg-gradient-to-br from-amber-400 to-orange-500 text-ink-950" : "border border-white/10 bg-white/[0.05] text-orange-300"
-                    }`}
+                    className={`flex h-10 w-10 items-center justify-center rounded-xl ${p.featured ? "bg-gradient-to-br from-amber-400 to-orange-500 text-ink-950" : "border border-white/10 bg-white/[0.05] text-orange-300"
+                      }`}
                   >
                     <p.icon className="h-5 w-5" aria-hidden="true" />
                   </span>
@@ -251,9 +249,8 @@ export function Pricing() {
                   {p.features.map((f) => (
                     <li key={f} className="flex items-start gap-3 text-sm text-slate-300">
                       <span
-                        className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
-                          p.featured ? "bg-gradient-to-br from-amber-400 to-orange-500 text-ink-950" : "bg-white/[0.08] text-orange-300"
-                        }`}
+                        className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${p.featured ? "bg-gradient-to-br from-amber-400 to-orange-500 text-ink-950" : "bg-white/[0.08] text-orange-300"
+                          }`}
                       >
                         <Check className="h-3 w-3" strokeWidth={3} aria-hidden="true" />
                       </span>
@@ -290,7 +287,7 @@ const FAQS = [
   },
   {
     q: "Is it really free?",
-    a: "Really, truly free. Every one of the 470 live stations, the full globe, favorites, the sleep timer and both day/night themes are available right now at no cost. Premium tiers below are optional extras — the magic is never behind a paywall.",
+    a: "Really, truly free. Every one of the 3999+ live stations, the full globe, favorites, the sleep timer and both day/night themes are available right now at no cost. Premium tiers below are optional extras — the magic is never behind a paywall.",
   },
   {
     q: "Where do the stations come from?",
@@ -331,9 +328,8 @@ export function FAQ() {
             return (
               <Reveal key={f.q} delay={i * 0.06}>
                 <div
-                  className={`overflow-hidden rounded-2xl border transition-colors duration-300 ${
-                    isOpen ? "border-orange-400/30 bg-white/[0.05]" : "border-white/[0.08] bg-white/[0.02] hover:border-white/20"
-                  }`}
+                  className={`overflow-hidden rounded-2xl border transition-colors duration-300 ${isOpen ? "border-orange-400/30 bg-white/[0.05]" : "border-white/[0.08] bg-white/[0.02] hover:border-white/20"
+                    }`}
                 >
                   <button
                     type="button"
@@ -346,9 +342,8 @@ export function FAQ() {
                       {f.q}
                     </span>
                     <span
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-300 ${
-                        isOpen ? "rotate-180 border-orange-400/40 bg-orange-400/15 text-orange-300" : "border-white/10 bg-white/[0.04] text-slate-400"
-                      }`}
+                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-all duration-300 ${isOpen ? "rotate-180 border-orange-400/40 bg-orange-400/15 text-orange-300" : "border-white/10 bg-white/[0.04] text-slate-400"
+                        }`}
                     >
                       {isOpen ? <Minus className="h-4 w-4" aria-hidden="true" /> : <Plus className="h-4 w-4" aria-hidden="true" />}
                     </span>
@@ -434,7 +429,7 @@ export function CTA() {
             </a>
 
             <p className="mt-6 text-xs text-slate-500">
-              Free · No credit card · No sign-up · 470 live stations · Works in any browser
+              Free · No credit card · No sign-up · 3999+ live stations · Works in any browser
             </p>
           </div>
         </div>
@@ -493,7 +488,7 @@ export function Footer() {
               <span className="font-display text-lg font-semibold text-white">Radio by Mayuddin</span>
             </a>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-500">
-              Preserving the feeling of old-school radio and reimagining it for today — one rotating globe, 470 live
+              Preserving the feeling of old-school radio and reimagining it for today — one rotating globe, 3999+ live
               stations, and every memory in between.
             </p>
             <a

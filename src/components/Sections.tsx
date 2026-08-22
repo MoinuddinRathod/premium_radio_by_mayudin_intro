@@ -62,11 +62,11 @@ const STATS: Array<{
   label: string;
   sub: string;
 }> = [
-  { to: 470, suffix: "", label: "Live stations on the globe", sub: "top 500 broadcasters by popularity" },
-  { to: 60, suffix: "+", label: "Countries & territories", sub: "every continent, every timezone" },
-  { to: 40, suffix: "+", label: "Genres to wander", sub: "jazz, news, lo-fi, 80s, world & more" },
-  { to: 0, decimals: 0, prefix: "$", suffix: "", label: "Cost to listen", sub: "free, no account, no install" },
-];
+    { to: 4000, suffix: "", label: "Live stations on the globe", sub: "top 4000 broadcasters by popularity" },
+    { to: 60, suffix: "+", label: "Countries & territories", sub: "every continent, every timezone" },
+    { to: 40, suffix: "+", label: "Genres to wander", sub: "jazz, news, lo-fi, 80s, world & more" },
+    { to: 0, decimals: 0, prefix: "$", suffix: "", label: "Cost to listen", sub: "free, no account, no install" },
+  ];
 
 export function SocialProof() {
   return (
@@ -166,7 +166,7 @@ const FEATURES = [
   {
     icon: Command,
     title: "⌘K Instant Search",
-    body: "Hit ⌘K and search 470 stations by name, country, or genre. Keyboard-first, for the impatient and the curious.",
+    body: "Hit ⌘K and search 3999+ stations by name, country, or genre. Keyboard-first, for the impatient and the curious.",
     accent: "from-slate-300/20 to-slate-500/5 text-slate-200",
   },
 ];
@@ -187,7 +187,7 @@ export function Features() {
               <span className="text-gradient-warm italic">Nothing you didn't.</span>
             </>
           }
-          sub="No feeds. No algorithms shouting at you. Just a globe, a dial, and 470 live signals from around the world — designed to feel as warm as the original, and as smooth as the best apps you use."
+          sub="No feeds. No algorithms shouting at you. Just a globe, a dial, and 3999+ live signals from around the world — designed to feel as warm as the original, and as smooth as the best apps you use."
         />
         <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {FEATURES.map((f, i) => (
@@ -259,9 +259,8 @@ export function Showcase() {
                 aria-selected={tab === t.id}
                 aria-controls={`panel-${t.id}`}
                 onClick={() => setTab(t.id)}
-                className={`relative flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors duration-300 ${
-                  tab === t.id ? "text-ink-950" : "text-slate-400 hover:text-white"
-                }`}
+                className={`relative flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors duration-300 ${tab === t.id ? "text-ink-950" : "text-slate-400 hover:text-white"
+                  }`}
               >
                 {tab === t.id && (
                   <motion.span
