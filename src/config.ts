@@ -1,5 +1,5 @@
 /** Live product URL — Global Radio by Mayuddin */
-export const APP_URL = "https://radio-by-mayuddin.vercel.app/";
+export const APP_URL = "https://radio-by-mayudin.vercel.app/";
 
 /** Shared props for every outbound link to the live app */
 export const APP_LINK = {

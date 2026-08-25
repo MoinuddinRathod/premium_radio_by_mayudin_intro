@@ -456,7 +456,7 @@ const MEMORY_POINTS = [
 ];
 
 const FUTURE_POINTS = [
-  "30,000+ stations across 190 countries — more than any FM band could dream of",
+  "3999+ stations across 190 countries — more than any FM band could dream of",
   "Crisp, HD streams with live track metadata for every broadcast",
   "Smart suggestions that learn your taste without ever feeling pushy",
   "Syncs your favorites across every device you own, instantly",
