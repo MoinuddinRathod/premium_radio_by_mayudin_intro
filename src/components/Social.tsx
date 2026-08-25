@@ -9,7 +9,7 @@ import { APP_LINK, APP_URL } from "../config";
 const TESTIMONIALS = [
   {
     quote:
-      "I grew up twisting a dial in my grandfather's kitchen. Opening Radio by Mayuddin felt like stepping back into that room — except now I can also tune into a jazz club in Osaka.",
+      "I grew up twisting a dial in my grandfather's kitchen. Opening Radio by Mayudin felt like stepping back into that room — except now I can also tune into a jazz club in Osaka.",
     name: "Amira H.",
     role: "Cairo, Egypt · Age 58",
     initials: "AH",
@@ -283,7 +283,7 @@ export function Pricing() {
 const FAQS = [
   {
     q: "Do I need an account to listen?",
-    a: "Not at all. Open radio-by-mayuddin.vercel.app, drag the globe, click a marker — you're on air in seconds. No sign-up, no install, nothing to download. Your favorites are saved right in your browser.",
+    a: "Not at all. Open radio-by-mayudin.vercel.app, drag the globe, click a marker — you're on air in seconds. No sign-up, no install, nothing to download. Your favorites are saved right in your browser.",
   },
   {
     q: "Is it really free?",
@@ -454,7 +454,7 @@ const FOOTER_COLS = [
   {
     title: "Company",
     links: [
-      { label: "About Mayuddin", href: "#story" },
+      { label: "About Mayudin", href: "#story" },
       { label: "Listener Stories", href: "#stories" },
       { label: "Contact", href: "#faq" },
       { label: "Press Kit", href: "#top" },
@@ -485,7 +485,7 @@ export function Footer() {
                   <path d="M12 3v3.2M12 17.8V21M3 12h3.2M17.8 12H21" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
                 </svg>
               </span>
-              <span className="font-display text-lg font-semibold text-white">Radio by Mayuddin</span>
+              <span className="font-display text-lg font-semibold text-white">Radio by Mayudin</span>
             </a>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-500">
               Preserving the feeling of old-school radio and reimagining it for today — one rotating globe, 3999+ live
@@ -496,7 +496,7 @@ export function Footer() {
               className="group mt-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 font-mono text-[11px] text-slate-400 transition-all duration-300 hover:border-orange-400/40 hover:text-orange-200"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-dot" aria-hidden="true" />
-              radio-by-mayuddin.vercel.app
+              radio-by-mayudin.vercel.app
               <ExternalLink className="h-3 w-3 opacity-60 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />
             </a>
             <div className="mt-6 flex items-center gap-2.5">
@@ -504,7 +504,7 @@ export function Footer() {
                 <a
                   key={s}
                   href="#top"
-                  aria-label={`Radio by Mayuddin on ${s}`}
+                  aria-label={`Radio by Mayudin on ${s}`}
                   className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-[11px] font-bold text-slate-400 transition-all duration-300 hover:-translate-y-0.5 hover:border-orange-400/40 hover:text-orange-300"
                 >
                   {s}
@@ -536,9 +536,9 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/[0.06] pt-8 sm:flex-row">
-          <p className="text-xs text-slate-600">© {new Date().getFullYear()} Mayuddin Rathod. All signals reserved.</p>
+          <p className="text-xs text-slate-600">© {new Date().getFullYear()} Mayudin Rathod. All signals reserved.</p>
           <p className="text-xs text-slate-600">
-            Crafted with <span className="text-orange-400">♥</span> and a little static — from Mayuddin, for the world.
+            Crafted with <span className="text-orange-400">♥</span> and a little static — from Mayudin, for the world.
           </p>
         </div>
       </div>

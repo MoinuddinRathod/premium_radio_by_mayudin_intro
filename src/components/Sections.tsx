@@ -437,7 +437,7 @@ export function Showcase() {
               <ExternalLink className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />
             </a>
             <p className="text-xs text-slate-500">
-              Opens <span className="font-medium text-slate-400">radio-by-mayuddin.vercel.app</span> in a new tab
+              Opens <span className="font-medium text-slate-400">radio-by-mayudin.vercel.app</span> in a new tab
             </p>
           </div>
         </Reveal>
@@ -496,7 +496,7 @@ export function Benefits() {
             <Reveal delay={0.16}>
               <p className="mt-5 leading-relaxed text-slate-400">
                 Some things shouldn't be lost to progress — the crackle of a dial, the voice of a late-night host, the
-                serendipity of landing on a song you'd forgotten you loved. Radio by Mayuddin keeps every bit of that
+                serendipity of landing on a song you'd forgotten you loved. Radio by Mayudin keeps every bit of that
                 feeling, then wraps it in something beautiful.
               </p>
             </Reveal>

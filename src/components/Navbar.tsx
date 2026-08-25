@@ -36,7 +36,7 @@ export default function Navbar() {
         <a href="#top" className="group flex items-center gap-3">
           <LogoMark className="h-9 w-9 transition-transform duration-500 group-hover:rotate-[25deg]" />
           <span className="flex flex-col leading-none">
-            <span className="font-display text-[17px] font-semibold tracking-tight text-white">Radio by Mayuddin</span>
+            <span className="font-display text-[17px] font-semibold tracking-tight text-white">Radio by Mayudin</span>
             <span className="mt-1 flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.22em] text-orange-300/90">
               <Radio className="h-3 w-3" aria-hidden="true" /> Global · Live
             </span>
